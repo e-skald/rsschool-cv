@@ -4,3 +4,6 @@
 ## Returned in the 2023 Q2 set.
 ## I hope to learn initial programming skills.
 ## Grateful for this opportunity!
+=====
+* started learning git
+* started create project 'CV'
