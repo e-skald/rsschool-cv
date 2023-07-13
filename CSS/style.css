@@ -1,5 +1,5 @@
 html, body {
-      @font-face {
+        @font-face {
         font-family: 'Agdasima';
         src: url("../assets/fonts/Agdasima/Agdasima-Bold.ttf");
         font-weight: 100;
