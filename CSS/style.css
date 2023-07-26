@@ -1,29 +1,50 @@
-html, body {
-        @font-face {
-        font-family: 'Agdasima';
-        src: url("../assets/fonts/Agdasima/Agdasima-Bold.ttf");
+* {
+  box-sizing: border-box;
+}
+ @font-face {
+        font-family: 'Lumanosimo';
+        src: url("../assets/fonts/Lumanosimo-Regular.ttf");
         font-weight: 100;
       }
-      @font-face {
-        font-family: 'Quicksand';
-        src: url("../assets/fonts/Quicksand/Quicksand.ttf");
-        font-weight: 80;
-      }
-        font-family: Agdasima, Quicksand;
-        font-size: 16px, 14px;
-        margin: 0;
-        padding: 0;
-}
-table {
-    border-collapse: collapse;
-}
-table.border td, table.border th {
-    padding: 5px;
-    border: 1px solid #c0c0c0;
-}
-table.border th {
-    background: #e0e0e0;
-}
-* {
-    box-sizing: border-box;
+body {
+  margin: 5%;
+  list-style-type: none;
+  background: #917cee62;
+  font-family: 'Lumanosimo';
+  font-size: 14px;
+main {
+    font-size: 16px;
+    line-height: 18px;
   }
+}
+.list_item {
+  display: flex;
+  display: inline-block;
+  padding: 10px;
+}
+.skills_line,.courses_line,.my-project,.languages_line,.contacts_text {
+  list-style-type: none;
+}
+.content_img {
+  border: 20px;
+  height: 400px;
+  width: 800px;
+}
+h1, h2 {
+  text-transform: uppercase;
+}
+.footer {
+  list-style-type: none;
+  text-align: center;
+}
+.footer_logo {
+  border: 10px;
+  height: 100px;
+  width: 100px;
+}
+.footer_list {
+  list-style-type: none;
+}
+.content_list {
+  list-style-type: none;
+}
