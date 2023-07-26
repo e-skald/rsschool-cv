@@ -1,1 +1,1 @@
-https://e-skald.github.io/rsschool-cv-html/
+https://e-skald.github.io/rsschool-cv/
